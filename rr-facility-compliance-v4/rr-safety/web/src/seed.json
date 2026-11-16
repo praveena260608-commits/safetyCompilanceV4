@@ -1,0 +1,163 @@
+{
+ "templates": [
+  {
+   "key": "vesda",
+   "name": "VESDA Monthly PM Service",
+   "frequencyHours": 720,
+   "items": [
+    "Power Conditions",
+    "Air filter",
+    "Exhaust Motor",
+    "Alert Indication light",
+    "Action Indication light",
+    "Fire Indication light",
+    "Below Nozzle",
+    "Above Nozzle"
+   ]
+  },
+  {
+   "key": "faspa",
+   "name": "FAS & PA Planned Preventive Maintenance",
+   "frequencyHours": 168,
+   "items": [
+    "Check the Access and control systems",
+    "Check the FM200 systems panel",
+    "Check the VESDA system panel",
+    "Check the WLD system panel",
+    "Visual Inspection of PA and FAS panel",
+    "Check the working condition of all PA speakers",
+    "Visual inspection of sprinkler system",
+    "Check the working conditions of MCP",
+    "Check the working condition of emergency [confirm wording]",
+    "Check the working conditions of Hooters",
+    "Check volume control of PA system",
+    "Access doors & turnstile automatically open while fire alarm activated"
+   ]
+  },
+  {
+   "key": "hydrant",
+   "name": "Weekly Fire Hydrant Shaft",
+   "frequencyHours": 168,
+   "items": [
+    "Hydrant Valve",
+    "Coupling with Lugs",
+    "2 no Hose Pipe",
+    "1 no Branch pipe",
+    "Hose Reel Drum with Nozzle",
+    "Keys with Glass",
+    "Hose Box with Glass",
+    "Ball/Gate Valve",
+    "Any Leakages"
+   ]
+  },
+  {
+   "key": "fm200",
+   "name": "FM200 Cylinder & Panel Daily",
+   "frequencyHours": 24,
+   "items": [
+    "FM200 cylinder pressure gauge",
+    "FM200 cylinder manual mode",
+    "FM200 fire panel manual or auto mode",
+    "Fire panel power in AC condition",
+    "Fire panel normal condition",
+    "Fire panel battery mode normal condition",
+    "Fire panel display normal condition",
+    "Abort switch normal condition",
+    "Release switch normal condition",
+    "Smoke detector working conditions"
+   ]
+  },
+  {
+   "key": "wld",
+   "name": "Water Leakage Detection System",
+   "frequencyHours": 2,
+   "items": [
+    "Alarm status",
+    "Panel power supply",
+    "Display status"
+   ]
+  },
+  {
+   "key": "extinguisher",
+   "name": "Fire Extinguisher Monthly Inspection",
+   "frequencyHours": 720,
+   "items": [
+    "Monthly inspection (seal, gauge, condition)"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "code": "VESDA-01",
+   "name": "VESDA Panel",
+   "location": "TBC",
+   "template": "vesda"
+  },
+  {
+   "code": "FASPA-01",
+   "name": "FAS, PA & Access Control Panel",
+   "location": "TBC",
+   "template": "faspa"
+  },
+  {
+   "code": "HYD-8E",
+   "name": "Fire Hydrant Shaft",
+   "location": "L3 East Wing, 8th Floor",
+   "template": "hydrant"
+  },
+  {
+   "code": "FM200-01",
+   "name": "FM200 Cylinder & Panel",
+   "location": "TBC",
+   "template": "fm200"
+  },
+  {
+   "code": "WLD-9F-H1",
+   "name": "WLD Hub Room-1",
+   "location": "9th Floor",
+   "template": "wld"
+  },
+  {
+   "code": "WLD-9F-H2",
+   "name": "WLD Hub Room-2",
+   "location": "9th Floor",
+   "template": "wld"
+  },
+  {
+   "code": "WLD-8F-H1",
+   "name": "WLD Hub Room-1",
+   "location": "8th Floor",
+   "template": "wld"
+  },
+  {
+   "code": "WLD-8F-H2",
+   "name": "WLD Hub Room-2",
+   "location": "8th Floor",
+   "template": "wld"
+  },
+  {
+   "code": "EXT-01",
+   "name": "Fire Extinguisher 1",
+   "location": "TBC",
+   "template": "extinguisher"
+  },
+  {
+   "code": "EXT-02",
+   "name": "Fire Extinguisher 2",
+   "location": "TBC",
+   "template": "extinguisher"
+  },
+  {
+   "code": "EXT-03",
+   "name": "Fire Extinguisher 3",
+   "location": "TBC",
+   "template": "extinguisher"
+  },
+  {
+   "code": "EXT-04",
+   "name": "Fire Extinguisher 4",
+   "location": "TBC",
+   "template": "extinguisher"
+  }
+ ]
+}
